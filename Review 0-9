@@ -1,0 +1,43 @@
+public class One {
+  public static void main(String [] args) {
+    System.out.println("Hello");
+    System.out.println("World");
+   }
+  }
+  
+  Output: 2 lines. 1st is hello, 2nd is world.
+  Hello
+  World
+  
+  
+ #2 
+  System.out.println("2+3");
+  
+  output:
+  2 + 3
+  
+  #3
+  System.out.print(4+2)
+  
+  output:
+  6
+  
+  #4
+  //System.out.print("Hello");
+  System.out.println("World");
+  
+  output:
+  Worldd")
+  
+  #5
+  System.out.print("Hello"); System.out.println("World");
+  //Never do this
+  
+  output:
+  HelloWorld
+  
+  #6
+  System.out.print("Hello"); //System.out.println("World");
+  
+  output:
+  Hello
