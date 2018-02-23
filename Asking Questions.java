@@ -7,7 +7,7 @@ public class AskingQuestions {
         int age = input.nextInt();
         
         System.out.print("How tall are you? ");
-        String. height = input.next();
+        String.height = input.next();
         
         System.out.print("How much do you weigh? ");
         double weight = input.nextDouble(); 
