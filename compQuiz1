@@ -1,0 +1,16 @@
+public class compQuiz1 {
+    public static void main(String args[]) {
+    
+    int mark = 30;
+    
+    if (mark > 50) {
+        System.out.println("You passed my dude :)");
+        
+    }
+    
+    if (mark < 50) {
+        System.out.println("Lol u dumb");
+    }
+        
+    }
+}
