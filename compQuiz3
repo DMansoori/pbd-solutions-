@@ -1,0 +1,20 @@
+public class compQuiz3 {
+    public static void main(String args[]) {
+    
+    int age = 19;
+    
+    if (age >= 65) {
+        System.out.println("U old af");
+    }
+    
+    if (age <= 18) {
+        System.out.println("Hey u yungin");
+        
+    }
+    
+    if (age < 65 && age >= 18) {
+        System.out.println("You good dawg");
+    }
+    
+    }
+}
