@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("If I say your mom 5 times, Gerwyn is a homosexual");
+        System.out.print("Message: ");
+        String message = scan.nextLine();
+
+        for (int n = 1 ; n <= 5 ; n = n + 1) {
+            System.out.println(n + ". " + message);
+        }
+    }
+}
