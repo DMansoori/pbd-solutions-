@@ -1,0 +1,27 @@
+int x; //declare variable globally
+int xSpeed;
+
+void setup() {
+  size (400,400);
+  x = 30;   //intialize in setup
+  xSpeed = 3;
+}
+
+void draw() { 
+  x+= xSpeed; 
+
+
+  if (x>= 400) {
+     xSpeed = -xSpeed;
+  } else if (x<=0){
+    xSpeed = -xSpeed;
+  }
+  
+  background(#23395B);
+  noStroke();
+  fill(255, 165, 0);
+  
+  ellipse(x,200,50,50);  
+}
+
+
