@@ -1,0 +1,25 @@
+void setup() {
+  
+  size(1000,600);
+  
+}
+
+void draw () {
+  
+  background(#87CEEB);
+  
+  //Ground
+  noStroke();
+  fill(#608038);
+  rect (0, height-100, width, 100);
+  
+  //Tree Trunk
+  noStroke();
+  fill(127,0,0);
+  rect(700,60,70,490);
+  
+  //Tree Bushes
+  noStroke();
+  fill(
+  
+}
