@@ -1,0 +1,50 @@
+//x and y are for the character
+// o and p are for the array/obstacles
+
+PVector[] obstacles; 
+int x;              // declare globally
+int xSpeed;
+int y;
+int ySpeed;
+
+void setup() {
+  size(800, 800);
+  x = 150;          // initialize in setup
+  xSpeed = 0;
+  y = 50;
+  ySpeed =0;
+  
+  obstacles = new PVector[10];
+  for (int i = 0; i < clouds.length; i++) {
+    float o = random
+  
+  
+  
+}
+
+void draw() { 
+  ySpeed +=1;
+  x += xSpeed;                      // update variable
+  y += ySpeed;
+  
+  // x boundary check
+  if (x + 25 >= width) {
+    xSpeed = -xSpeed;
+  } else if (x - 25 <= 0) {
+    xSpeed = -xSpeed;
+  }
+  
+  // y boundary check
+  if (y + 25 >= height) {
+    ySpeed = -ySpeed;
+    
+    } else if (y - 25 <= 0) {
+ ySpeed = -ySpeed;
+  }
+  
+  background(#23395B);
+  // draw ball
+  noStroke();
+  fill(#FFFD98);
+  ellipse(x, y, 50, 50);     // use variable to draw
+}
